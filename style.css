@@ -6,10 +6,13 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+ background-image: url("img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
+
+   
+    
 
 .container {
   max-width: 928px;
@@ -44,8 +47,14 @@ body {
 .header-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
-}
 
+}
+.header-wk{
+    background-image: url("img/wk2.svg");
+    padding-left: 25px;
+    
+    
+}
 .hero-image {
   margin-bottom: 620px;
 }
@@ -71,6 +80,7 @@ body {
 
 .intro {
   margin: 0 0 120px;
+   
 }
 
 .subheading {
@@ -191,4 +201,14 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+    
+}
+.footer-wk{
+    background-image: url("img/wk.svg");
+    padding-left: 25px;
+}
+
+.my-photo{
+    text-align: center
+    
 }
