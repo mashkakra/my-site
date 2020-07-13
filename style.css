@@ -50,8 +50,8 @@ body {
 
 }
 .header-wk{
-    background-image: url("wk2.svg");
-    padding-left: 25px;
+    background-image: url("vk-header.svg");
+    padding-left: 40px;
     
     
 }
@@ -204,8 +204,8 @@ body {
     
 }
 .footer-wk{
-    background-image: url("wk.svg");
-    padding-left: 25px;
+    background-image: url("vk-footer.svg");
+    padding-left: 40px;
 }
 
 .my-photo{
