@@ -1,22 +1,19 @@
 body {
-  margin: 0;
+  margin-top: 100px;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
-  background-color: #f2f4f6;
- background-image: url("source/hero-bg.jpg");
+  color: #f2f2f2;
+  background-color: #080208;
+  background-image: url("img(1)/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
-
-   
-.container .button{
-    color: white;
-    background-color: black;
+header{
+    margin-top: 80px;
+    
 }
-
 .container {
   max-width: 928px;
   margin: 0 auto;
@@ -24,44 +21,52 @@ body {
     text-align: right;
     padding-left: 1000px;
     
+    
+}
+.contacts{
+    margin-left: 600px;
+}
+}
+.page-header {
+  margin: 0 0 180px;
+  padding: 32px 0 32px;
+    padding-right: px;
+    
 }
 
-.page-header {
-  margin: 0 0 160px;
-  padding: 32px 0 32px;
-}
 
 .page-footer .container {
   max-width: 1408px;
-  text-align: right;
+  text-align: left;
+   
 }
 
 .page-header a {
   margin-left: 56px;
-  color: #288be6;
+  color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
 }
 
+}
+.header-vk{
+    padding-left: 40px;
+    background-image: url("img(1)/icon-vk.svg");
+}
 .header-email {
   padding-left: 30px;
-  background-image: url("source/icon-email-header.svg");
+  background-image: url("img(1)/icon-email.svg");
 }
 
 .header-phone {
   padding-left: 25px;
-  background-image: url("source/icon-phone-header.svg");
+  background-image: url("img(1)/icon-phone.svg");
+}
 
-}
-.header-wk{
-    background-image: url("source/vk-header.svg");
-    padding-left: 40px;
-    
-    
-}
 .hero-image {
-  margin-bottom: 620px;
+  margin-bottom: 480px;
+    margin-top: 100px;
 }
 
 .hero-image .container {
@@ -70,11 +75,9 @@ body {
 }
 
 .heading {
-  margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 88px;
+  margin: 0 0 24px;
+  font-size: 80px;
   line-height: 96px;
-  font-weight: 400;
 }
 
 .hero-image p {
@@ -85,15 +88,12 @@ body {
 
 .intro {
   margin: 0 0 120px;
-   
 }
 
 .subheading {
   margin: 0 0 56px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 64px;
+  font-size: 56px;
   line-height: 80px;
-  font-weight: 400;
   text-align: center;
 }
 
@@ -126,11 +126,11 @@ body {
 }
 
 .skill-html {
-  background-image: url("source/icon-html.svg");
+  background-image: url("img(1)/icon-html.svg");
 }
 
 .skill-css {
-  background-image: url("source/icon-css.svg");
+  background-image: url("img(1)/icon-css.svg");
 }
 
 .level {
@@ -138,15 +138,15 @@ body {
   padding: 0;
   height: 14px;
   font-size: 0;
-  background-color: #ffffff;
-  border: 1px solid #86c3fa;
+  background-color: #080208;
+  border: 1px solid #712073;
   border-radius: 8px;
 }
 
 .level div {
   margin: 1px;
   height: 12px;
-  background-color: #288be6;
+  background-color: #fea18d;
   border-radius: 6px;
 }
 
@@ -180,43 +180,35 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
-  background-color: #288be6;
+  background-color: #712073;
   color: #ffffff;
 }
 
 .page-footer {
   padding: 40px 0;
-    
-  background-color: #00417d;
-  color: #ffffff;
+   
+  background-color: #260c26;
+    background-position: left;
 }
 
 .page-footer a {
-    margin-left: 70px;
-  color: inherit;
+  margin-left: 70px;
+  color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
 }
 
-}
 .footer-email {
   padding-left: 30px;
-  background-image: url("source/icon-email-footer.svg");
+  background-image: url("img(1)/icon-email.svg");
 }
 
 .footer-phone {
   padding-left: 25px;
-  background-image: url("source/icon-phone-footer.svg");
-    
+  background-image: url("img(1)/icon-phone.svg");
 }
-.footer-wk{
-    background-image: url("source/vk-footer.svg");
+.footer-vk{
     padding-left: 40px;
-}
-.contacts{
-    margin-left: 20px;}
-.my-photo{
-    text-align: center
-    
+    background-image: url("img(1)/icon-vk.svg");
 }
